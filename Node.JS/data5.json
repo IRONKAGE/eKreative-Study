@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Kostya",
+    "cardNumber": 5167985560601338,
+    "operation": 31.3
+  },
+  {
+    "name": "Kostya",
+    "cardNumber": 6167985560601338,
+    "operation": 130
+  },
+  {
+    "name": "Daniel",
+    "cardNumber": 5167985560601339,
+    "operation": -1.33
+  },
+  {
+    "name": "Roman",
+    "cardNumber": 5167985560601337,
+    "operation": -12
+  },
+  {
+    "name": "Kostya",
+    "cardNumber": 5167985560611137,
+    "operation": -12
+  },
+  {
+    "name": "Roman",
+    "cardNumber": 5167985560601337,
+    "operation": 1200
+  },
+  {
+    "name": "Roman",
+    "cardNumber": 5167985560601337,
+    "operation": -12
+  },
+  {
+    "name": "Taras",
+    "cardNumber": 5167985560600337,
+    "operation": 129
+  },
+  {
+    "name": "Taras",
+    "cardNumber": 7167985560600337,
+    "operation": 1290
+  },
+  {
+    "name": "Kate",
+    "cardNumber": 7167985560600337,
+    "operation": 129
+  },
+  {
+    "name": "Leo",
+    "cardNumber": 8167985560600337,
+    "operation": -10.5
+  },
+  {
+    "name": "Roman",
+    "cardNumber": 5167985560601337,
+    "operation": 200
+  },
+  {
+    "name": "Roman",
+    "cardNumber": 5167985560601337,
+    "operation": -300
+  }
+]
