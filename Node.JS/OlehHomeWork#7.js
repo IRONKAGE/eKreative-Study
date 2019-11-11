@@ -20,7 +20,7 @@ function trukytnuk(a, b, c){
     }else{
         return false;
     };
-};
+}
 console.log(trukytnuk(1, 1, 35));
 console.log(trukytnuk(1, 1, 2));
 console.log(trukytnuk(3, 3, 3));
@@ -31,14 +31,14 @@ console.log(trukytnuk(3, 3, 3));
 function Powernennya(text) {
     var middle;
     var length;
-    if(text.length % 2 == 1) {
+    if (text.length % 2 == 1){
         middle = text.length / 2;
         length = 1;
-    } else {
+    }else{
         middle = text.length / 2 - 1;
         length = 2;
-    }
-    return text.substring(middle, middle + length)
+    };
+    return text.substring(middle, middle + length);
 }
 
 console.log(Powernennya("Мойсей"));
