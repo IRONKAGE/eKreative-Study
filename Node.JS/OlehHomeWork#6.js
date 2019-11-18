@@ -1,8 +1,8 @@
 // 1. Сума всіх чисел
-function sumaGausa(n) {
-    return (n * (n + 1)) / 2;
-}
-console.log(sumaGausa(4));
+// function sumaGausa(n) {
+//     return (n * (n + 1)) / 2;
+// }
+// console.log(sumaGausa(4));
 
 
 // 2. Видалення першої та останньої букви із рядку
@@ -18,10 +18,10 @@ console.log(sumaGausa(4));
 // console.log(StringCut("Ну що тут скажеш"));
 
 // третій варіант
-function StringCut(s) {
-    return s.slice(1, -1);
-}
-console.log(StringCut("Ну що тут скажеш"));
+// function StringCut(s) {
+//     return s.slice(1, -1);
+// }
+// console.log(StringCut("Ну що тут скажеш"));
 
 
 // 3. Розгорнута сума числа
@@ -51,19 +51,19 @@ console.log(StringCut("Ну що тут скажеш"));
 // console.log(expandedForm(-42));
 
 // Краще рішення
-function RozhornytaSuma(num) {
-    let numStringArray = Array.from(String(num));
-    let len = numStringArray.length;
-    let result = '';
-    numStringArray.map((n, index) => {
-        if(n > 0) {
-        if(result) {result += ' + '};
-        result += new String(n).padEnd(len - index, '0');
-        }
-    });
-    return result;
-}
-console.log(RozhornytaSuma(-42));
+// function RozhornytaSuma(num) {
+//     let numStringArray = Array.from(String(num));
+//     let len = numStringArray.length;
+//     let result = '';
+//     numStringArray.map((n, index) => {
+//         if(n > 0) {
+//         if(result) {result += ' + '};
+//         result += new String(n).padEnd(len - index, '0');
+//         }
+//     });
+//     return result;
+// }
+// console.log(RozhornytaSuma(-42));
 
 
 // 4. Сума масиву чисел, окрім найменшого та найбільшого числа
@@ -99,7 +99,7 @@ console.log(RozhornytaSuma(-42));
 //     var Suma = StringCut.reduce((sum, current) => (sum += current), 0);
 //     return (Suma);
 // }
-// console.log(SumCutMaxMin([6, 2, 1, 8, 10, 1]));
+// console.log(SumCutMaxMin([6, 2, 1, 8, 10, 1, 10, 6, ]));
 
 // Чисте рішення
 function SumCutMaxMin(Array){
@@ -109,4 +109,16 @@ function SumCutMaxMin(Array){
     var Suma = StringCut.reduce((sum, current) => (sum += current), 0);
     return (Suma);
 }
-console.log(SumCutMaxMin([6, 2, 1, 8, 10, 1]));
+console.log(SumCutMaxMin([6, 2, 1, 8, 10, 1])); 
+
+// function suma(x){
+//     if (x > 0){
+//         return ("Пробуй")
+//     }
+//     else if (x < 0){
+//         return ("Ніт")
+//     } else {
+//         return ("Так")
+//     };
+// };
+// console.log(suma(-0));
