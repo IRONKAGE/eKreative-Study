@@ -4,4 +4,4 @@
 
 Ігор [SQL Lite]() [Git]()
 
-Роман [FrontEnd]()
+Роман [FrontEnd](https://github.com/IRONKAGE/eKreative-Study/tree/master/FrontEnd)
