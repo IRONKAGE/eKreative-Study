@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        alert("Hello world!")
+    </script>
+
+    <script async src="app.js"></script>
+
+    <button onclick="alert('Click me')">Click me</button>
+
+    <p id="Демо_у_сторінці"></p>
+
+    <script>
+        document.addEventListener("click", function(){
+            document.getElementById("Демо_у_сторінці").innerHTML = "Це через inner";
+        });
+    </script>
+
+    <a href="javascript:alert('link, it\'s me')">Link</a>
+
+    <p><script>
+        document.write("Message через document WRITE");
+    </script>
+    <!-- ServiceWorker's -->
+    <!-- <script>
+        document.createElement('script')
+        window.document
+    </script> -->
+
+    <div id="identificator"></div>
+    <div class="class-name"></div>
+</body>
+</html>

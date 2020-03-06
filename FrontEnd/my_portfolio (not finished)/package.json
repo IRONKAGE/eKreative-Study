@@ -1,0 +1,16 @@
+{
+  "name": "my_portfolio",
+  "version": "1.0.0",
+  "description": "Goals:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "node-sass app.scss app.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "node-sass": "^4.12.0"
+  }
+}

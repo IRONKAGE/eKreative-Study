@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Kostya",
+        "cardNumber": 1234567812345678,
+        "operation": -14
+    },
+    {
+        "name": "Daniel",
+        "cardNumber": 1234567887654321,
+        "operation": -14
+    },
+    {
+        "name": "Roman",
+        "cardNumber": 8765432112345678,
+        "operation": 100
+    }
+]

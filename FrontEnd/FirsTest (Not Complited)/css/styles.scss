@@ -1,0 +1,66 @@
+@import 'normalize.scss';
+
+
+// === Mixins ===
+@mixin font-lato {
+    font-family: 'Lato', sans-serif;
+}
+
+@mixin font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+// === / Mixins ===
+
+// === Variables ===
+$color-white: #ffffff;
+// === / Variables ===
+
+// === Common ===
+body {
+    @include font-lato();
+}
+
+.section-outer {}
+.section-inner {
+    width: 1180px;
+    margin: 0 auto;
+}
+// === / Common ===
+
+// === Header ===
+.section-header {
+    color: #ffffff;
+    background: url('../image/grunge-brick-wall.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    &-logo {}
+    &-content {}
+    &-wrapper {
+        &__title {}
+        &__subtitle {}
+        &__form {
+            &-input {}
+            &-button {}
+        }
+    }
+}
+// === / Header ===
+
+// === Promo ===
+.section-promo {}
+// === /Promo ===
+
+// === Founder ===
+.section-founder {}
+// === / Founder ===
+
+// === Plans ===
+.section-plans {}
+// === / Plans ===
+
+// === Free ===
+.section-free {}
+// === / Free ===
+
+// === Footer ===
+.section-footer {}
+// ===  / Footer ===

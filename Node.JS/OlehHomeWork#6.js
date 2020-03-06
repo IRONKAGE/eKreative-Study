@@ -122,3 +122,24 @@ console.log(SumCutMaxMin([6, 2, 1, 8, 10, 1]));
 //     };
 // };
 // console.log(suma(-0));
+
+
+// function withOutMinMax(numArr){
+//     // let numArr = result;
+//     // let n;
+//     numArr .sort(function(a, b){return a - b});//сортую масив в орядку зростання 
+//    n = numArr.slice (1, -1);
+//    let a = n.reduce((acc, user) => (acc += user), 0);
+//    return (a);
+// }
+// console.log(withOutMinMax([6, 2, 1, 8, 10 ]));
+
+// function withOutMinMax(result){
+//     let numArr = result;
+//     let n;
+//     result = numArr .sort(function(a, b){return a - b});//сортую масив в орядку зростання 
+//    n = result.slice (1, -1);
+//    let a = n.reduce((acc, user) => (acc += user), 0);
+//    return (a);
+// }
+// console.log(withOutMinMax([6, 2, 1, 8, 10 ]));
