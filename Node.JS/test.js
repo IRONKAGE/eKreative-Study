@@ -32,13 +32,15 @@
 //     };
 //   }
 
-// function Calculator() {
-//   return 1+2;
-// }
-
-var drawCats = function (howManyTimes) {
-  for (var i = 0; i < howManyTimes; i++) {
-    console.log(i + "=^.^=");
-  }
+function Calculator() {
+  return 1+2;
 };
-drawCats(5);
+console.log(Calculator());
+
+
+// var drawCats = function (howManyTimes) {
+//   for (var i = 0; i < howManyTimes; i++) {
+//     console.log(i + "=^.^=");
+//   }
+// };
+// drawCats(5);
